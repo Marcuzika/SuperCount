@@ -1,10 +1,11 @@
 const b_sound = new Audio("super.mp3");
 const b_music = new Audio("franky_theme.mp3");
 
+const body = document.getElementById('body')
 const button = document.querySelector("input#c_button");
 const button2 = document.querySelector("input#l_button");
 
-window.addEventListener("pageshow", function music() {
+body.addEventListener("click", function music() {
   b_music.play();
   b_music.loop = true;
   b_music.volume = 0.2;
