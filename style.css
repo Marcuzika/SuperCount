@@ -43,3 +43,7 @@ footer{
     display:block;
     padding-top: 15px;
 }
+
+.l_button, .c_button{
+    display: inline-block;
+}
