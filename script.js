@@ -4,10 +4,11 @@ const b_music = new Audio("franky_theme.mp3");
 const button = document.querySelector("input#c_button");
 const button2 = document.querySelector("input#l_button");
 
-window.addEventListener("load", function music(){ 
+window.addEventListener("pageshow", function music() {
   b_music.play();
   b_music.loop = true;
-  b_music.volume = 0.2;});
+  b_music.volume = 0.2;
+});
 
 button.addEventListener("mouseenter", function enter() {
   button.style.background = "#7fff00";
