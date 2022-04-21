@@ -27,6 +27,11 @@ button2.addEventListener("click", function clear() {
   msg.innerHTML = "";
 });
 
+window.addEventListener("load", function(){ 
+  b_music.play();
+  b_music.loop = true;
+  b_music.volume = 0.2;});
+
 function count() {
   const beg = document.querySelector("input#beg");
   const end = document.querySelector("input#end");
