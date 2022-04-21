@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img src="franky.png" alt="" class="img">
+    </div>
+    <header>
+        <h1>Super Contador</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Início:
+                <input type="number" name="n_beg" id="beg" min="0">
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="n_end" id="end">
+            </p>
+            <p>
+                Passo:
+                <input type="number" name="n_step" id="step">
+            </p>
+            <div class="c_button">
+                <input type="button" value="Contar" id="c_button" class="c_button">
+            </div>
+            <div class="l_button">
+                <input type="button" value="Limpar" id="l_button" class="l_button">
+            </div>
+        </div>
+        <div id="msg" class="msg">
+            Preparando a contagem...
+        </div>
+    </section>
+    <footer>
+        <p>
+            &copy; Zika labs.
+        </p>
+    </footer>
+    <div>
+        <audio src="franky_theme.mp3" controls loop autoplay class="audio">
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

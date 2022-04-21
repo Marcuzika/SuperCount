@@ -1,0 +1,59 @@
+body{
+    background: rgb(42, 116, 226);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 390px;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(63, 63, 63);
+    position: relative;
+    bottom: 390px;
+}
+
+footer{
+    color:white;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    bottom: 390px;
+}
+
+.img, section{
+    margin: auto;
+    display:flex;
+}
+
+.img{
+    right:430px;
+    position: relative;
+}
+
+.msg, section{
+    display:block;
+    padding-top: 15px;
+}
+
+.l_button, .c_button{
+    display: inline-block;
+}
+
+.audio{
+    position:relative;
+    bottom: 390px;
+}
+
+.audio, section{
+    margin: auto;
+    display:block;
+}
