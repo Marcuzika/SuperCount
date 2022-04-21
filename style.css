@@ -43,17 +43,3 @@ footer{
     display:block;
     padding-top: 15px;
 }
-
-.l_button, .c_button{
-    display: inline-block;
-}
-
-.audio{
-    position:relative;
-    bottom: 390px;
-}
-
-.audio, section{
-    margin: auto;
-    display:block;
-}
