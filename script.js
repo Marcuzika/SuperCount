@@ -1,7 +1,7 @@
 const b_sound = new Audio("super.mp3");
 const b_music = new Audio("franky_theme.mp3");
 
-const body = document.getElementById('body')
+const body = document.getElementById("body")
 const button = document.querySelector("input#c_button");
 const button2 = document.querySelector("input#l_button");
 
