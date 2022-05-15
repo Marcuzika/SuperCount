@@ -4,7 +4,7 @@ I've made this project using JS, HTML and CSS.
 
 It shows a sequence of numbers according to the data placed.
 
-You can use it at https://marcuzika.github.io/SuperCount/. 
+You can use it at https://marcuzika.github.io/super-count/. 
 
 Have fun!
 
